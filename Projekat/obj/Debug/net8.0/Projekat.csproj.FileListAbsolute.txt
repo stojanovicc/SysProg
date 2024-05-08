@@ -1,0 +1,14 @@
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\bin\Debug\net8.0\Projekat.exe
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\bin\Debug\net8.0\Projekat.deps.json
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\bin\Debug\net8.0\Projekat.runtimeconfig.json
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\bin\Debug\net8.0\Projekat.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\bin\Debug\net8.0\Projekat.pdb
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.AssemblyInfoInputs.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.AssemblyInfo.cs
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.csproj.CoreCompileInputs.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\refint\Projekat.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.pdb
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.genruntimeconfig.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\ref\Projekat.dll
