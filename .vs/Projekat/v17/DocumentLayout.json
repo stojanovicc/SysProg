@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|c:\\users\\anastasija\\desktop\\fakultet\\vi semestar\\sistemsko programiranje\\projekat\\projekat\\museum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|solutionrelative:projekat\\museum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|c:\\users\\anastasija\\desktop\\fakultet\\vi semestar\\sistemsko programiranje\\projekat\\projekat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|solutionrelative:projekat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|c:\\users\\anastasija\\desktop\\fakultet\\vi semestar\\sistemsko programiranje\\projekat\\projekat\\museumcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|solutionrelative:projekat\\museumcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|c:\\users\\anastasija\\desktop\\fakultet\\vi semestar\\sistemsko programiranje\\projekat\\projekat\\museumresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|solutionrelative:projekat\\museumresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|c:\\users\\anastasija\\desktop\\fakultet\\vi semestar\\sistemsko programiranje\\projekat\\projekat\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E973877-2095-4D43-A7B2-C4D1D9E9C82D}|Projekat\\Projekat.csproj|solutionrelative:projekat\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +42,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MuseumResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\MuseumResponse.cs",
+              "RelativeDocumentMoniker": "Projekat\\MuseumResponse.cs",
+              "ToolTip": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\MuseumResponse.cs",
+              "RelativeToolTip": "Projekat\\MuseumResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:25:32.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HttpServer.cs",
+              "DocumentMoniker": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\HttpServer.cs",
+              "RelativeDocumentMoniker": "Projekat\\HttpServer.cs",
+              "ToolTip": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\HttpServer.cs",
+              "RelativeToolTip": "Projekat\\HttpServer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:21:42.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MuseumCache.cs",
+              "DocumentMoniker": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\MuseumCache.cs",
+              "RelativeDocumentMoniker": "Projekat\\MuseumCache.cs",
+              "ToolTip": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\MuseumCache.cs",
+              "RelativeToolTip": "Projekat\\MuseumCache.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:14:52.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Museum.cs",
+              "DocumentMoniker": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\Museum.cs",
+              "RelativeDocumentMoniker": "Projekat\\Museum.cs",
+              "ToolTip": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\Museum.cs",
+              "RelativeToolTip": "Projekat\\Museum.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:12:37.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\Program.cs",
               "RelativeDocumentMoniker": "Projekat\\Program.cs",
               "ToolTip": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat\\Projekat\\Program.cs",
               "RelativeToolTip": "Projekat\\Program.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAADwvwcAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T10:13:27.643Z",
               "EditorCaption": ""

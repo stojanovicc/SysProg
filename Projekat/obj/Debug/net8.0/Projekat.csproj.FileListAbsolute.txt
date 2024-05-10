@@ -12,3 +12,6 @@ C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projeka
 C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.pdb
 C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.genruntimeconfig.cache
 C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\ref\Projekat.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.csproj.AssemblyReference.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat\Projekat\obj\Debug\net8.0\Projekat.csproj.Up2Date
