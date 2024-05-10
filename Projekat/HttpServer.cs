@@ -13,6 +13,8 @@ class HttpServer
         listener.Prefixes.Add("http://localhost:5000/");
         listener.Start();
         Console.WriteLine("Pokrenuli ste server.");
+        Console.WriteLine("Server osluškuje na http://localhost:5000/");
+
 
         while (true)
         {

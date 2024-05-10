@@ -9,16 +9,7 @@ class Program
 {
     static void Main()
     {
-        HttpListener listener = new HttpListener();
-        listener.Prefixes.Add("http://localhost:5000/");
-        listener.Start();
-        Console.WriteLine("Pokrenut je server.");
-
-        while (true)
-        {
-            HttpListenerContext context = listener.GetContext();
-            ThreadPool.QueueUserWorkItem(new WaitCallback(Request), context);
-        }
+        HttpServer.StartServer();
     }
     public static void Request(object state)
     {
@@ -27,7 +18,7 @@ class Program
 
         if (string.IsNullOrEmpty(query))
         {
-            Response(context, "<html><body>Potrebno je da unesete query parametar.</body></html>");
+            Response(context, "Potrebno je da unesete query parametar.");
             return;
         }
 
