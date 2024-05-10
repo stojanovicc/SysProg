@@ -27,15 +27,15 @@ class Program
 
         if (string.IsNullOrEmpty(query))
         {
-            SendResponse(context, "<html><body>Potrebno je da unesete parametar.</body></html>");
+            Response(context, "<html><body>Potrebno je da unesete query parametar.</body></html>");
             return;
         }
 
         string responseString = Museum.GetMuseums(query);
-        SendResponse(context, responseString);
+        Response(context, responseString);
     }
 
-    public static void SendResponse(HttpListenerContext context, string responseString)
+    public static void Response(HttpListenerContext context, string responseString)
     {
         byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
         context.Response.ContentLength64 = buffer.Length;

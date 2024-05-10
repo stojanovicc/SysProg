@@ -10,6 +10,50 @@ public class Museum
 
     public static string GetMuseums(string query)
     {
+        //ovaj deo izbacuje samo idijeve
+        //try
+        //{
+        //    if (MuseumCache.cache.ContainsKey(query))
+        //    {
+        //        return MuseumCache.cache[query];
+        //    }
+
+        //    if (string.IsNullOrWhiteSpace(query))
+        //    {
+        //        return "<html><body>Doslo je do greske: Unesite validan query parametar.</body></html>";
+        //    }
+
+
+        //    string url = $"https://collectionapi.metmuseum.org/public/collection/v1/search?q={query}";
+        //    string response = new WebClient().DownloadString(url);
+        //    dynamic museumResponse = JsonConvert.DeserializeObject(response);
+
+        //    if (museumResponse.total == 0)
+        //    {
+        //        return "<html><body> Nema rezultata pretrage za dati upit. </body></html>";
+        //    }
+
+        //    string result = "<html><body>";
+
+        //    var objectIDs = new List<int>();
+        //    foreach (var objectId in museumResponse.objectIDs)
+        //    {
+        //        objectIDs.Add((int)objectId);
+        //    }
+
+        //    foreach (var objectId in museumResponse.objectIDs)
+        //    {
+        //        result += $"<p>{objectId}</p>";
+        //    }
+
+        //    result += "</body></html>";
+
+        //    MuseumCache.cache.Add(query, result);
+
+        //    return result;
+        //}
+
+        //ovaj de izbacuje i total i idijeve
         try
         {
             if (MuseumCache.cache.ContainsKey(query))
@@ -19,9 +63,8 @@ public class Museum
 
             if (string.IsNullOrWhiteSpace(query))
             {
-                return "<html><body>Doslo je do greske: Unesite validan query parametar.</body></html>";
+                return "{\"error\": \"Doslo je do greske: Unesite validan query parametar.\"}";
             }
-
 
             string url = $"https://collectionapi.metmuseum.org/public/collection/v1/search?q={query}";
             string response = new WebClient().DownloadString(url);
@@ -29,21 +72,26 @@ public class Museum
 
             if (museumResponse.total == 0)
             {
-                return "<html><body> Nema rezultata pretrage za dati upit. </body></html>";
+                return "{\"message\": \"Nema rezultata pretrage za dati upit.\"}";
             }
 
-            string result = "<html><body>";
-
+            var objectIDs = new List<int>();
             foreach (var objectId in museumResponse.objectIDs)
             {
-                result += $"<p>{objectId}</p>";
+                objectIDs.Add((int)objectId);
             }
 
-            result += "</body></html>";
+            var resultObject = new
+            {
+                total = museumResponse.total,
+                objectIDs = objectIDs
+            };
 
-            MuseumCache.cache.Add(query, result);
+            string resultJson = JsonConvert.SerializeObject(resultObject);
 
-            return result;
+            MuseumCache.cache.Add(query, resultJson);
+
+            return resultJson;
         }
         catch (WebException webEx)
         {
@@ -73,3 +121,4 @@ public class Museum
         }
     }
 }
+
