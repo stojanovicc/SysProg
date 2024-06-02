@@ -6,8 +6,9 @@ namespace Projekat
     internal class MuseumCache
     {
         private static readonly ConcurrentDictionary<string, CacheItem> cache = new ConcurrentDictionary<string, CacheItem>();
-        private const int MaxCapacity = 1000; // Maksimalni kapacitet cache-a
-        private const int DefaultExpirationMinutes = 30; // Podrazumevano vreme isteka stavki u cache-u
+        private const int MaxCapacity = 1000;
+        private const int DefaultExpirationMinutes = 30;
+        private static readonly object lockObject = new object();
 
         public static string Get(string key)
         {
@@ -19,24 +20,28 @@ namespace Projekat
                 }
                 else
                 {
-                    // Stavka je istekla, ukloni je iz cache-a
-                    cache.TryRemove(key, out _);
+                    lock (lockObject)
+                    {
+                        cache.TryRemove(key, out _);
+                    }
                 }
             }
-            return null; // Stavka ne postoji u cache-u ili je istekla
+            return null;
         }
 
         public static void Add(string key, string data, int expirationMinutes = DefaultExpirationMinutes)
         {
             var newItem = new CacheItem(data, DateTime.Now.AddMinutes(expirationMinutes));
 
-            // Proveri da li je cache prekoračio kapacitet i ukloni najstarije stavke ako je potrebno
-            while (cache.Count >= MaxCapacity)
+            lock (lockObject)
             {
-                RemoveOldestItem();
-            }
+                while (cache.Count >= MaxCapacity)
+                {
+                    RemoveOldestItem();
+                }
 
-            cache.TryAdd(key, newItem);
+                cache.TryAdd(key, newItem);
+            }
         }
 
         private static void RemoveOldestItem()
@@ -55,7 +60,10 @@ namespace Projekat
 
             if (keyToRemove != null)
             {
-                cache.TryRemove(keyToRemove, out _);
+                lock (lockObject)
+                {
+                    cache.TryRemove(keyToRemove, out _);
+                }
             }
         }
 
