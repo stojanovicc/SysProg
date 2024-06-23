@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "QEhfynGvucSNXBfeGK+lYIhYb9S7BmlXhw0krh8CXpBPp0XWzd+jAJ3bA1HixkmfO5Yuo3bnurOZfFlAnMFKqQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\PC\\Documents\\IV godina\\VII\\SP\\3.Projekat\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package SharpEntropy with version (>= 2.0.0)\r\n  - Found 1 version(s) in nuget.org [ Nearest version: 1.0.0 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages",
+      "libraryId": "SharpEntropy",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}
