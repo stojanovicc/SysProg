@@ -1,0 +1,54 @@
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.exe
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.deps.json
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.runtimeconfig.json
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.dll
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.pdb
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.AssemblyInfo.cs
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.csproj.CopyComplete
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.dll
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\refint\Projekat3.dll
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.pdb
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.genruntimeconfig.cache
+C:\Users\PC\Documents\IV godina\VII\SP\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\ref\Projekat3.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.exe
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.deps.json
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.runtimeconfig.json
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.pdb
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.csproj.AssemblyReference.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.AssemblyInfoInputs.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.AssemblyInfo.cs
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.csproj.CoreCompileInputs.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.csproj.Up2Date
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\refint\Projekat3.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.pdb
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.genruntimeconfig.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Tudj projekat\Projekat3\Projekat3\obj\Debug\net7.0\ref\Projekat3.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.exe
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.deps.json
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.runtimeconfig.json
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\bin\Debug\net7.0\Projekat3.pdb
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.csproj.AssemblyReference.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.AssemblyInfoInputs.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.AssemblyInfo.cs
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.csproj.CoreCompileInputs.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.csproj.Up2Date
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\refint\Projekat3.dll
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.pdb
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\Projekat3.genruntimeconfig.cache
+C:\Users\ANASTASIJA\Desktop\Fakultet\VI semestar\Sistemsko programiranje\Projekat3\Projekat3\obj\Debug\net7.0\ref\Projekat3.dll
