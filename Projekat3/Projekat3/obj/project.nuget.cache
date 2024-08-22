@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bWMPH4OM0wpyMQXY4s2gkN8IyeokiQ1bR7d2a1gHtMlyBy8J4DbcY92pIoLZsvFW6RR03dGDW48BDeGtB4ur5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ANASTASIJA\\Desktop\\Fakultet\\VI semestar\\Sistemsko programiranje\\Projekat3\\Projekat3\\Projekat3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ANASTASIJA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ANASTASIJA\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ANASTASIJA\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Users\\ANASTASIJA\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

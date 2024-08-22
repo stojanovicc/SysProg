@@ -1,82 +1,69 @@
 ﻿using System;
-using System.Collections.Concurrent;
+using System.Collections.Generic;
 
-namespace Projekat
+class MuseumCache
 {
-    internal class MuseumCache
+    public static int cacheIsEmpty = 0;
+    public static readonly int Capacity = 1000; 
+    public static readonly Dictionary<string, string> cache = new Dictionary<string, string>();
+
+    public static readonly System.Timers.Timer cacheCleanupTimer = new System.Timers.Timer(TimeSpan.FromMinutes(10).TotalMilliseconds);
+
+    static MuseumCache()
     {
-        private static readonly ConcurrentDictionary<string, CacheItem> cache = new ConcurrentDictionary<string, CacheItem>();
-        private const int MaxCapacity = 1000;
-        private const int DefaultExpirationMinutes = 30;
-        private static readonly object lockObject = new object();
+        cacheCleanupTimer.Elapsed += (sender, e) => CacheCleanup();
+    }
 
-        public static string Get(string key)
+    public static void CacheCleanup()
+    {
+        Console.WriteLine("Brisanje iz kesa:");
+        foreach (var key in cache.Keys)
         {
-            if (cache.TryGetValue(key, out CacheItem item))
-            {
-                if (item.ExpiresAt >= DateTime.Now)
-                {
-                    return item.Data;
-                }
-                else
-                {
-                    lock (lockObject)
-                    {
-                        cache.TryRemove(key, out _);
-                    }
-                }
-            }
-            return null;
+            Console.WriteLine($" - {key}");
+        }
+        cache.Clear();
+        cacheIsEmpty = 0;
+        cacheCleanupTimer.Stop();
+        Console.WriteLine("Stopiran je tajmer");
+    }
+
+    public static void AddToCache(string key, string value)
+    {
+        if (cacheIsEmpty == 0)
+        {
+            cacheCleanupTimer.Start();
+            cacheIsEmpty = 1;
+            Console.WriteLine("Startovan je tajmer");
         }
 
-        public static void Add(string key, string data, int expirationMinutes = DefaultExpirationMinutes)
+        if (cache.Count >= Capacity)
         {
-            var newItem = new CacheItem(data, DateTime.Now.AddMinutes(expirationMinutes));
-
-            lock (lockObject)
-            {
-                while (cache.Count >= MaxCapacity)
-                {
-                    RemoveOldestItem();
-                }
-
-                cache.TryAdd(key, newItem);
-            }
+            var firstKey = new List<string>(cache.Keys)[0];
+            cache.Remove(firstKey);
+            Console.WriteLine($"Izbaceno iz kesa: {firstKey}");
         }
 
-        private static void RemoveOldestItem()
+        cache[key] = value;
+        Console.WriteLine($"Dodato u kes: {key}");
+    }
+
+    public static bool TryGetFromCache(string key, out string value)
+    {
+        bool isFound = cache.TryGetValue(key, out value);
+        if (isFound)
         {
-            DateTime oldestExpiration = DateTime.MaxValue;
-            string keyToRemove = null;
-
-            foreach (var kvp in cache)
-            {
-                if (kvp.Value.ExpiresAt < oldestExpiration)
-                {
-                    oldestExpiration = kvp.Value.ExpiresAt;
-                    keyToRemove = kvp.Key;
-                }
-            }
-
-            if (keyToRemove != null)
-            {
-                lock (lockObject)
-                {
-                    cache.TryRemove(keyToRemove, out _);
-                }
-            }
+            Console.WriteLine($"Pronadjeno u kesu: {key}");
         }
+        return isFound;
+    }
 
-        private class CacheItem
+    public static bool IsInCache(string key)
+    {
+        bool isInCache = cache.ContainsKey(key);
+        if (isInCache)
         {
-            public string Data { get; }
-            public DateTime ExpiresAt { get; }
-
-            public CacheItem(string data, DateTime expiresAt)
-            {
-                Data = data;
-                ExpiresAt = expiresAt;
-            }
+            Console.WriteLine($"Ključ je u kešu: {key}");
         }
+        return isInCache;
     }
 }

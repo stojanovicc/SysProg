@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace Projekat
+public class MuseumResponse
 {
-    public class MuseumResponse
+    public List<Museum> data { get; set; }
+
+    public MuseumResponse()
     {
-        public List<Museum> data { get; set; }
+        data = new List<Museum>();
     }
 }
