@@ -23,3 +23,4 @@
   - Prilikom poziva proslediti odgovarajuću ključnu reč (keyword), kao i kategoriju (category).
   - Za prikupljene naslove implementirati Topic Modeling koristeći SharpEntropy biblioteku. Prikazati dobijene rezultate.
   - Koristiti biblioteku Reactive Extensions for .NET (Rx) i implementirati odgovarajuće paradigme Reaktivnog programiranja.
+  - Koristiti Postman alat za testiranje zahteva.
