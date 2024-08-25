@@ -17,7 +17,7 @@
   - Za obradu kod koje taskovi nemaju smisla treba zadržati klasične niti.
   - Dozvoljeno je korišćenje mehanizama za međusobno zaključavanje i sinhronizaciju.
 
-# 3.Projekar
+# 3.Projekat
   - Koristeći principe Reaktivnog programiranja i News API, implementirati aplikaciju za prikaz naslova i izvora za određene članke (title i source property).
   - Koristiti /v2/top-headlines endpoint.
   - Prilikom poziva proslediti odgovarajuću ključnu reč (keyword), kao i kategoriju (category).
