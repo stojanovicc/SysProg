@@ -16,3 +16,10 @@
   - Ali koristiti taskove i asinhrone operacije (tamo gde to ima smisla).
   - Za obradu kod koje taskovi nemaju smisla treba zadržati klasične niti.
   - Dozvoljeno je korišćenje mehanizama za međusobno zaključavanje i sinhronizaciju.
+
+# 3.Projekar
+  - Koristeći principe Reaktivnog programiranja i News API, implementirati aplikaciju za prikaz naslova i izvora za određene članke (title i source property).
+  - Koristiti /v2/top-headlines endpoint.
+  - Prilikom poziva proslediti odgovarajuću ključnu reč (keyword), kao i kategoriju (category).
+  - Za prikupljene naslove implementirati Topic Modeling koristeći SharpEntropy biblioteku. Prikazati dobijene rezultate.
+  - Koristiti biblioteku Reactive Extensions for .NET (Rx) i implementirati odgovarajuće paradigme Reaktivnog programiranja.
